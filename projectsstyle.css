@@ -1,0 +1,93 @@
+.projects-section {
+  text-align: center;
+  padding: 0.2rem 2rem 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #000;
+}
+
+
+
+.projects-heading {
+  font-size: 3rem;
+  color: #f5c518;
+  margin-top: 0; 
+  margin-bottom: 3rem;
+}
+
+.project {
+  margin-bottom: 4rem;
+}
+
+.project-title {
+  font-size: 1.6rem;
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+.project p, .project li {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.project ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project ul li::before {
+  content: \"• \";
+  color: #f5c518;
+}
+
+.yellow {
+  color: #f5c518;
+  font-weight: bold;
+}
+
+.project-link {
+  color: #f5c518;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f5c518;
+}
+
+nav a {
+  margin: 0 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f5c518;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Set black globally */
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+

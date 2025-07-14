@@ -1,0 +1,76 @@
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f5c518;
+}
+
+nav a {
+  margin: 0 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f5c518;
+}
+
+.about-section {
+  padding: 0.2rem 2rem 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-heading {
+  font-size: 3rem;
+  color: #f5c518;
+  margin-bottom: 2.5rem;
+}
+
+.about-text p {
+  font-size: 1.15rem;
+  color: #fff;
+  margin: 1.2rem 0;
+  line-height: 1.8;
+}
+
+.resume-heading {
+  font-size: 2rem;
+  color: #f5c518;
+  margin-top: 3rem;
+}
+
+.resume-link a {
+  font-size: 1.1rem;
+  color: #f5c518;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #999;
+  background-color: #000;
+}

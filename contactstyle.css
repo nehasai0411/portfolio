@@ -1,0 +1,83 @@
+/* Global full black background */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar style (top-right) */
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f5c518;
+}
+
+nav a {
+  margin: 0 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f5c518;
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: #000;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  color: #f5c518;
+  margin-bottom: 3rem;
+}
+
+.contact-item {
+  font-size: 1.2rem;
+  color: white;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.contact-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #999;
+  background-color: #000;
+}
